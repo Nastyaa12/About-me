@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    background-color:blanchedalmond;
+}
+
+header .head-whithout-radio{
+    display: flex;
+    justify-content: center
+}
+
+header .head-whithout-radio a{
+    color: rgb(63, 46, 35);
+    font-family:cursive;
+    font-size: 20pt;
+    margin: 30px;
+}
+
+header .home .text p{
+    font-size: 30px;
+    font-family:cursive;
+    text-align: center;
+    color: rgb(63, 46, 35);
+    margin: 40px;
+}
+
+header .home .text{
+    height: 410px;
+    width: 800px;
+    background-color:rgba(255, 235, 205, 0.753);
+    border-radius: 5px;
+}
+
+header .home{
+    height: 1200px;
+    background-image: url(/assets/img/golden-wheat-field.jpg); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
+
+header .skills{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color:rgba(126, 69, 31, 0.479);
+}
+
+header .skills .hard, .soft{
+    margin: 0 100px;
+    background-color:rgba(255, 235, 205, 0.753);
+    width: 1000px;
+}
+
+
+header .skills h1,p{
+    color: rgb(63, 46, 35);
+    margin: 60px;
+}
+
+header .iamstupid{
+    display: flex;
+    font-size: 30px;
+    justify-content: center; 
+}
+
+header .portfolio{
+    display: flex;
+    justify-content: center; 
+}
+
+header .portfolio .blok h1{
+    display: flex;
+    justify-content: center; 
+}
+
+header .portfolio .blok img{
+    height: 300px;
+    margin: 20px;
+}
+
+header .portfolio .blok p{
+    font-size: 20pt;
+    margin: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+header .contacts{
+    height: 500px;
+    background-color:rgba(126, 69, 31, 0.479);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .contacts .blok img{
+    height: 90px;
+    margin: 0 160px;
+}
+
+header .contacts .blok{
+    background-color:rgba(255, 235, 205, 0.753);
+    margin: 40px 0;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+header .contacts .blok h1, p{
+    font-size: 20pt;
+    display: flex;
+    justify-content: center; 
+}
+
+header .contacts .blok h1{
+    margin: 20px;
+}
+
+header .Career{
+    height: 900px;
+    background-image: url(/assets/img/30583.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column
+}
+
+header .Career .blok{
+    background-color:rgba(255, 235, 205, 0.753);
+    margin: 40px;
+}
+
+header .Career .blok h1, p{
+    display: flex;
+    justify-content: center; 
+}
+
+header .Career .blok h1{
+    font-size: 50px;
+    color: rgb(141, 77, 16);
+}
