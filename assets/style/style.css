@@ -41,7 +41,7 @@ header .home .text{
 
 header .home{
     height: 1200px;
-    background-image: url(/assets/img/golden-wheat-field.jpg); 
+    background-image: url(../img/golden-wheat-field.jpg); 
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -129,7 +129,7 @@ header .contacts .blok h1{
 
 header .Career{
     height: 900px;
-    background-image: url(/assets/img/30583.jpg);
+    background-image: url(../img/30583.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column
